@@ -23,9 +23,8 @@
       "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
       "args": [
         "--inspect-brk",
-        "${workspaceFolder}/test/stack.test.js",
-        // "${workspaceFolder}",
-        // "${file}",
+        // "${workspaceFolder}/test/stack.test.js"
+        "${workspaceFolder}/test/queue.test.js"
       ],
       "internalConsoleOptions": "openOnSessionStart"
     },
